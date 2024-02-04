@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f2f5; /* Light grey background for the page */
+    color: #333; /* Darker font color for better readability */
+    font-family: Arial, sans-serif; /* Ensures a consistent font throughout */
+    margin: 0;
+    padding: 0;
+}
+
+.year-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.year-button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: 2px solid transparent; /* Adds a border that becomes visible on hover */
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.year-button:hover,
+.year-button:focus {
+    background-color: #0056b3; /* Darker blue on hover/focus for contrast */
+    color: #fff; /* Keeps text color white for readability */
+    border-color: #004080; /* Adds a darker border on hover/focus for emphasis */
+    outline: none; /* Removes the default focus outline to use border-color instead */
+}
+
+
+.rocket-info {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #fff; /* White background for the content area */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
+}
+
+.rocket-info img {
+    max-width: 100%; /* Ensures image is not wider than its container */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 200px; /* Adjust this value to fit your design */
+}
+
+.hidden {
+    display: none;
+}
+
+
+h1, h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}

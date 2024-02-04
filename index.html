@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/nasa.ico" type="image/x-icon">
+
+    <title>NASA Rockets Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="timeline">
+    <h1>NASA Rockets Timeline</h1>
+    <h2>Spring 2024</h2>
+    <h2>Sci 240 taught by Dr. Otim Odong</h2>
+    <h2>By: Sam Redpath</h2>
+    <div id="year-buttons" class="year-buttons-container">
+        <button class="year-button" data-year="1942">1942</button> <!-- V2 Rocket -->
+        <button class="year-button" data-year="1957">1957</button> <!-- Atlas Rocket -->
+        <button class="year-button" data-year="1959">1959</button> <!-- Titan Rocket -->
+        <button class="year-button" data-year="1961">1961</button> <!-- Redstone Rocket -->
+        <button class="year-button" data-year="1963">1963</button> <!-- Saturn I (Adjusted Year for uniqueness) -->
+        <button class="year-button" data-year="1967">1967</button> <!-- Saturn V -->
+        <button class="year-button" data-year="1981">1981</button> <!-- Space Shuttle -->
+        <button class="year-button" data-year="2002">2002</button> <!-- Atlas V -->
+        <button class="year-button" data-year="2010">2010</button> <!-- Falcon 9 -->
+        <button class="year-button" data-year="2021">2021</button> <!-- Space Launch System (SLS) -->
+    </div>
+
+    <div id="rocket-info" class="rocket-info hidden"></div>
+</div>
+
+
+<footer style="text-align: center; padding: 20px; margin-top: 30px; background-color: #f0f2f5; color: #333;">
+    <p>Click a button to see information about the rocket launched in that year.</p>
+    <p>Rocket information sourced from <a href="https://www.nasa.gov" target="_blank">NASA's Official Website</a>.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
